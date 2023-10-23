@@ -20,7 +20,7 @@ public class Ball : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         print(collision.collider.gameObject.name);
-        rigidbody2d.velocity = new Vector2(rigidbody2d.velocity.x+ Random.Range(10,20), rigidbody2d.velocity.y+ Random.Range(20,30));
+        rigidbody2d.velocity = new Vector2(rigidbody2d.velocity.x+ Random.Range(1,5), rigidbody2d.velocity.y+ Random.Range(1,8));
 
 
 
